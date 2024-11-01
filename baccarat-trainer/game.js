@@ -51,7 +51,7 @@ class BaccaratTrainer {
 
     displayCard(card, position) {
         const cardElement = document.getElementById(position);
-        cardElement.innerHTML = `<img src="../images/${card.suit}${card.value}.png" alt="${card.value} of ${card.suit}">`;
+        cardElement.innerHTML = `<img src="images/${card.suit}${card.value}.png" alt="${card.value} of ${card.suit}">`;
     }
 
     clearCards() {
